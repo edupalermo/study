@@ -1,0 +1,7 @@
+/home/eduardo/workspace/test/study/backend-guice/core/src/main/java/com/uniscon/rest/book/BookRestService.java
+/home/eduardo/workspace/test/study/backend-guice/core/src/main/java/com/uniscon/conf/DataSourceModule.java
+/home/eduardo/workspace/test/study/backend-guice/core/src/main/java/com/uniscon/rest/book/Book.java
+/home/eduardo/workspace/test/study/backend-guice/core/src/main/java/com/uniscon/rest/book/BookDao.java
+/home/eduardo/workspace/test/study/backend-guice/core/src/main/java/com/uniscon/rest/book/BookService.java
+/home/eduardo/workspace/test/study/backend-guice/core/src/main/java/com/uniscon/conf/ApplicationModule.java
+/home/eduardo/workspace/test/study/backend-guice/core/src/main/java/com/uniscon/rest/book/BookEntity.java

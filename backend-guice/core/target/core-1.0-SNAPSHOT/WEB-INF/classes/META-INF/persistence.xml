@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+  http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd" version="1.0">
+
+    <!-- A JPA Persistence Unit -->
+    <persistence-unit name="libraryUnit" transaction-type="RESOURCE_LOCAL">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+
+        <!-- JPA entities must be registered here -->
+        <class>com.uniscon.rest.book.BookEntity</class>
+
+        <properties>
+            <!-- Configuring JDBC properties -->
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://127.0.0.1:5432/libraryDb" />
+            <property name="javax.persistence.jdbc.user" value="dbuser" />
+            <property name="javax.persistence.jdbc.password" value="testing123" />
+            <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
+            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQL82Dialect" />
+
+            <!-- Log SQL queries -->
+            <property name="hibernate.format_sql" value="true" />
+            <property name="hibernate.use_sql_comments" value="true" />
+
+            <!-- Drop and re-create the database schema on startup -->
+            <property name="javax.persistence.schema-generation.database.action" value="none" />
+            <!-- Use only classes specified in MAPPINGS -->
+            <property name="hibernate.archive.autodetection" value="none" />
+        </properties>    </persistence-unit>
+
+</persistence>

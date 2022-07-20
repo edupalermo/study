@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  postgres:
+    image: study.postgres
+    build: postgres
+    environment:
+      - POSTGRES_USER=coreUser
+      - POSTGRES_PASSWORD=testing123
+      - POSTGRES_DB=libraryDb
+    ports:
+      - "5432:5432"

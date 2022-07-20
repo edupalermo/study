@@ -1,0 +1,7 @@
+com/uniscon/conf/ApplicationModule.class
+com/uniscon/conf/DataSourceModule.class
+com/uniscon/rest/book/BookDao.class
+com/uniscon/rest/book/BookEntity.class
+com/uniscon/rest/book/BookService.class
+com/uniscon/rest/book/BookRestService.class
+com/uniscon/rest/book/Book.class
